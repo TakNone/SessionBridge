@@ -73,6 +73,17 @@ php vendor/bin/sessionbridge --from telethon-sqlite --to liveproto-sqlite --sess
 
 > If you need support for additional session types open an issue or contribute an adapter
 
+| Type | From | To |
+| --- | --- | --- |
+| LiveProto String | :white_check_mark: | :white_check_mark: |
+| LiveProto SQLite | :white_check_mark: | :white_check_mark: |
+| Telethon String | :white_check_mark: | :white_check_mark: |
+| Telethon SQLite | :white_check_mark: | :x: |
+| Pyrogram String | :white_check_mark: | :white_check_mark: |
+| Pyrogram SQLite | :white_check_mark: | :x: |
+| Madeline String | :white_check_mark: | :x: |
+| Tdata | :white_check_mark: | :x: |
+
 ---
 
 ## License
